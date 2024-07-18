@@ -15,8 +15,10 @@ body {
 
 div, p, span {
 	font-size: 80px;
+	color: tomato !important;
 }
 
 .test {
 	font-size: 40px;
 }
+
