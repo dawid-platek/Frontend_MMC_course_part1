@@ -1,3 +1,25 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 body {
+	margin: 20px;
+	font-size: 36px;
+	height: 100vh;	
 	font-family: "Roboto", sans-serif;
+	background-color:#333;
+	color: white;
+	overflow: hidden;
+
+}
+
+p {
+color:gold;
+
+text-align: left;	
+text-align: center;
+text-align: right;
+text-align: justify;
+
 }
