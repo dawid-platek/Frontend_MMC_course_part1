@@ -21,5 +21,13 @@ text-align: left;
 text-align: center;
 text-align: right;
 text-align: justify;
+text-decoration: overline;
+text-decoration: underline;
+text-decoration: line-through;
 
+}
+
+a{	
+	color: white;
+	text-decoration: none;
 }
