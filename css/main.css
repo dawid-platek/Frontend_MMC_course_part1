@@ -1,4 +1,4 @@
-*{
+* {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -6,28 +6,31 @@
 body {
 	margin: 20px;
 	font-size: 36px;
-	height: 100vh;	
-	font-family: "Roboto", sans-serif;
-	background-color:#333;
+	height: 100vh;
+	font-family: 'Roboto', sans-serif;
+	background-color: #333;
 	color: white;
 	overflow: hidden;
-
 }
 
 p {
-color:gold;
+	color: gold;
 
-text-align: left;	
-text-align: center;
-text-align: right;
-text-align: justify;
-text-decoration: overline;
-text-decoration: underline;
-text-decoration: line-through;
 
 }
 
-a{	
+a {
 	color: white;
 	text-decoration: none;
+}
+
+.small{
+	text-transform: uppercase;
+}
+
+.big{
+	text-transform: lowercase;
+}
+.text{
+	text-transform: capitalize;
 }
