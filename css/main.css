@@ -15,22 +15,5 @@ body {
 
 p {
 	color: gold;
-
-
-}
-
-a {
-	color: white;
-	text-decoration: none;
-}
-
-.small{
-	text-transform: uppercase;
-}
-
-.big{
-	text-transform: lowercase;
-}
-.text{
-	text-transform: capitalize;
+	text-shadow: 5px 5px 5px #fff;
 }
