@@ -4,6 +4,11 @@
 	padding: 0;
 }
 body {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
 	margin: 20px;
 	font-size: 36px;
 	height: 100vh;
@@ -13,7 +18,8 @@ body {
 	overflow: hidden;
 }
 
-p {
-	color: gold;
-	text-shadow: 5px 5px 5px #fff;
+div{
+	width: 500px;
+	height: 500px;
+	background-color: gold;
 }
