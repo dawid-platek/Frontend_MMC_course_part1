@@ -4,11 +4,10 @@
 	padding: 0;
 }
 body {
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
+
 	margin: 20px;
 	font-size: 36px;
 	height: 100vh;
@@ -18,10 +17,11 @@ body {
 	overflow: hidden;
 }
 
-div{
+
+img {
 	width: 500px;
 	height: 500px;
-	background-color: #f11;
-	background-color: #000000;
-	background-color: rgba(red, green, blue, alpha);
+	border-radius: 50%;
+	opacity: .5;
+	filter: sepia(100);
 }
