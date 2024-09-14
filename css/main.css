@@ -1,27 +1,23 @@
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
 body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
-	margin: 20px;
 	font-size: 36px;
-	height: 100vh;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Comfortaaa', cursive;
 	background-color: #333;
-	color: white;
-	overflow: hidden;
+	color: #fff;
 }
-
 
 img {
-	width: 500px;
-	height: 500px;
-	border-radius: 50%;
-	opacity: .5;
-	filter: sepia(100);
+	display: block;
+	margin: 0 auto;
+	width: 800px;
+	border-radius: 25px;
+}
+
+p {
+	font-weight: bold;
+	color: lime;
+}
+
+span{
+	color: tomato;
+	text-decoration: underline;
 }
