@@ -6,23 +6,17 @@ body {
 }
 
 img {
-<<<<<<< HEAD
 	display: block;
 	margin: 0 auto;
 	width: 800px;
 	border-radius: 25px;
-=======
-	width: 500px;
-	height: 500px;
-	border-radius: 65%;
-	opacity: .5;
->>>>>>> 27d2cd1b85ad541f8f558fdcbfd9b477c819b1af
 }
 
 p {
 	font-weight: bold;
 	color: lime;
 }
+
 
 span{
 	color: tomato;
