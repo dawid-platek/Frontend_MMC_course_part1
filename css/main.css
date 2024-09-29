@@ -1,23 +1,19 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
 body {
-	font-size: 36px;
-	font-family: 'Comfortaaa', cursive;
 	background-color: #333;
 	color: #fff;
+	font-family: 'Montserrat', sans-serif;
 }
+.box {
+	max-width: 600px;
+	min-width: 400px;
+	width: 100%;
 
-img {
-	display: block;
-	margin: 0 auto;
-	width: 800px;
-	border-radius: 25px;
-}
-
-p {
-	font-weight: bold;
-	color: lime;
-}
-
-span{
-	color: tomato;
-	text-decoration: underline;
+	height: 500px;
+	background-color: blue;
 }
