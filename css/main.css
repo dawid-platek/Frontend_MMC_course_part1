@@ -11,31 +11,3 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 36px;
 }
-
-hr {
-	margin: 30px 0;
-}
-
-div, p {
-	color: greenyellow;
-}
-
-div section p {
-	color: red
-}
-
-
-/* > bezpośrednie dzieci*/
-div > p {
-	color: blue;
-}
-
-/* + PIERWSZY bezpośredni brat*/
-div + p {
-	color: orange;
-}
-
-/* ~ WSZYSCY bracia */
-div ~ span {
-	color: yellow;
-}
