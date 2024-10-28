@@ -12,11 +12,14 @@ body {
 	font-size: 36px;
 }
 
-.square {
-	height: 600px;
-	width: 300px;
-	background-color: #4169e1;
-	border: 10px dotted gold;
-	border-top-right-radius: 50px;
-
+a{
+	color: #fff;
+	text-decoration: none;
 }
+
+
+
+a:hover{
+	color: blue;
+}
+
