@@ -18,8 +18,18 @@ a{
 }
 
 
-
-a:hover{
-	color: blue;
+.btn{
+		display: inline-block;
+	padding: 10px 20px;
+	background-color: tomato;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: .5s;
 }
 
+.btn:hover{
+	background-color: gold;
+	box-shadow: 0 0 5px gold;
+}
