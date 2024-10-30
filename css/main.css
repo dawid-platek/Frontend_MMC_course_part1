@@ -12,24 +12,27 @@ body {
 	font-size: 36px;
 }
 
-a{
-	color: #fff;
-	text-decoration: none;
+div {
+	display: block; /* wartość domyślna */
+
+	background-color: lime;
+	color: #000;
 }
 
+p {
+	display: block; /* wartość domyślna */
 
-.btn{
-		display: inline-block;
-	padding: 10px 20px;
-	background-color: tomato;
-	color: #fff;
-	border: none;
-	border-radius: 10px;
-	cursor: pointer;
-	transition: .5s;
-}
-
-.btn:hover{
 	background-color: gold;
-	box-shadow: 0 0 5px gold;
+	color: #000;
+}
+
+span {
+	display: inline; /* wartość domyślna */
+
+	background-color: royalblue;
+}
+
+img {
+	width: 300px;
+	height: 200px;
 }
