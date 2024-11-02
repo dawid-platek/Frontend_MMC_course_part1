@@ -1,15 +1,18 @@
 * {
-	/* box-sizing: border-box; */
-	/* margin: 0; */
+	box-sizing: border-box;
+	margin: 0;
 	padding: 0;
 }
 
 body {
-	/* margin: 50px; */
 	background-color: #333;
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 36px;
+}
+
+main {
+	margin-top: 200px;
 }
 
 div {
@@ -20,23 +23,25 @@ div {
 }
 
 .red {
-	position: relative;
-	z-index: 2;
-
-	margin-top: 200px;
 	background-color: tomato;
 }
 
 .blue {
-	position: relative;
-	top: -100px;
-	left: 50px;
-	z-index: 3;
-
 	margin: 20px auto;
 	background-color: royalblue;
 }
 
 .green {
 	background-color: greenyellow;
+}
+
+.gold {
+	/* position: absolute;
+	bottom: 0;
+	right: -120px; */
+
+	margin: 0;
+	width: 120px;
+	height: 120px;
+	background-color: gold;
 }
