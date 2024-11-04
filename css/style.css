@@ -9,57 +9,32 @@ body {
 	color: #fff;
 	font-family: 'Montserrat', 'sans-serif';
 	font-size: 36px;
+
+	 height: 200vh;
 }
 
 section {
-	position: relative;
-	margin-top: 200px;
-	margin-bottom: 50px;
-	height: 300px;
-	background-color: #ddd;
-	position: relative; /* Add position: relative to the parent */
+	margin-top: 400px;
 }
 
 div {
-	height: 100px;
-	width: 100px;
+	margin: 0 auto;
+	height: 200px;
+	width: 600px;
 	border: 3px solid black;
 }
 
-.top {
-	position: absolute;
-	top: 0;
-}
 .red {
-	left: 0;
 	background-color: tomato;
 }
 
 .blue {
-	left: 100px;
+	position: fixed;
+	top: 150px;
+	margin: 0px auto;
 	background-color: royalblue;
 }
 
 .green {
-	left: 200px;
 	background-color: greenyellow;
-}
-
-.rightside {
-	position: absolute;
-	right: 0;
-}
-.gold {
-	bottom: 0;
-	background-color: gold;
-}
-
-.silver {
-	bottom: 100px;
-	background-color: silver;
-}
-
-.black {
-	display: inline-block;
-	background-color: black;
 }
