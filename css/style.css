@@ -22,7 +22,7 @@ div {
 	width: 800px;
 	height: 60px;
 	background-color: tomato;
-	transition: 0.3s;
+	transition: transform 0.3s, width 0.3s;
 }
 
 .long:hover {
@@ -32,41 +32,39 @@ div {
 	background-color: gold;
 }
 
+.short-size{
+    position: absolute;
+    width: 300px;
+	height: 60px;
+}
+
 .short {
-	position: absolute;
 	top: 180px;
 	left: calc(50% - 150px);
-	width: 300px;
-	height: 60px;
 	border-radius: 25px;
 	background-color: royalblue;
-	transition: 1s linear;
+	transition: transform 1s linear;
 }
 
 .short:hover {
 	transform: rotate(360deg);
 }
 
+.short2, .short3 {
+  top: 250px;
+  border-radius: 10px;
+}
+
 .short2 {
-	position: absolute;
-	top: 250px;
 	left: calc(30% - 150px);
-	width: 300px;
-	height: 60px;
 	background-color: gold;
-	border-radius: 10px;
-	transition: 1s 1s ease-out;
+	transition: transform 1s 1s ease-out;
 }
 
 .short3 {
-	position: absolute;
-	top: 250px;
 	left: calc(70% - 150px);
-	width: 300px;
-	height: 60px;
 	background-color: greenyellow;
-	border-radius: 10px;
-	transition: 1s 1s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+	transition: transform 1s 1s cubic-bezier(0.55, 0.085, 0.68, 0.53);
 }
 
 .short:hover ~ .short2 {
@@ -84,7 +82,7 @@ div {
 	transform: translate(-50%, -50%);
 	width: 400px;
 	height: 200px;
-	transition: 0.3s;
+	transition: background-color 0.3s;
     line-height: 200px;
 }
 
