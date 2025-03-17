@@ -7,7 +7,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
-	background-color: #333;
+	/* background-color: #333; */
 }
 
 .wrapper {
@@ -40,6 +40,12 @@ body {
 .hero-text span {
 	text-transform: uppercase;
 	color: #09f;
+}
+
+.section-title {
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	text-align: center;
 }
 /* nav */
 nav {
@@ -77,6 +83,62 @@ nav {
 	background-position: center;
 }
 
+/* main */
+main {
+	margin: 60px 0;
+}
+
+/* O nas */
+.about-us-info {
+	margin-bottom: 10px;
+}
+
+/* Produkty */
+.products {
+	margin: 60px auto;
+}
+
+.products h3 {
+	text-transform: uppercase;
+}
+
+.first-product {
+	position: relative;
+	height: 300px;
+	background-image: url('../img/children.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.second-product {
+	position: relative;
+	height: 300px;
+	background-image: url('../img/mac.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.third-product {
+	position: relative;
+	height: 300px;
+	background-image: url('../img/woman.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.forty-product {
+	position: relative;
+	height: 300px;
+	background-image: url('../img/laptop.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+/* Responsowność */
 @media (min-width: 768px) {
 	.burger-icon {
 		display: none;
